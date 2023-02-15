@@ -1,0 +1,13 @@
+.navbar{
+    width: 80%;
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+
+}
+
+.navbar div{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
