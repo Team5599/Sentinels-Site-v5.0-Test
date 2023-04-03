@@ -1,16 +1,31 @@
-import styles from '../styles/Home.module.css'; //replace with css file
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div class="navbar"></div>                {/*sticky navbar*/}
-
-      <div class="block"></div>                 {/*TBD what content to put maybe a photo?*/}
-
-      <h1>Cardozo's Robotics team</h1>
-
-
-      <footer></footer>                          {/*Footer information*/}
-    </div>
+    <>
+      <Head>
+        <title>Sentinels</title>
+        
+      </Head>
+      <main>
+          <nav class="navbar">
+            <li id="home"><a>The Sentinels</a></li>
+            <li id="list"><a>Team</a></li>
+            
+            <li id="list"><a>Robots</a></li>
+            <li id="list"><a>Blogs</a></li>
+            <li id="list"><a>Sponsors</a></li>
+            <li id="list"><a>Resources</a></li>
+            <li id="list"><a>Contact us</a></li>
+          </nav>
+        
+        <div>
+          <h1 class="Heading">News heading</h1>
+        </div>
+      </main>
+    </>
   )
 }

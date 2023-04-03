@@ -1,0 +1,23 @@
+.Heading{
+    text-align: center;
+}
+.navbar{
+    
+}
+#home{
+    float: left;
+}
+#subPages{
+    float: right;
+}
+
+.ahhh{
+    list-style-type: none;
+}
+#list{
+    float: inline-start;
+}
+
+li{
+    list-style: none;
+}
