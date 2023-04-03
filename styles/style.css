@@ -2,7 +2,11 @@
     text-align: center;
 }
 .navbar{
-    
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
 }
 #home{
     float: left;
@@ -11,13 +15,14 @@
     float: right;
 }
 
-.ahhh{
-    list-style-type: none;
-}
 #list{
     float: inline-start;
 }
 
 li{
     list-style: none;
+}
+
+.img{
+    text-align: center;
 }
