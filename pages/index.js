@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 //import Router from 'next/Router'
+
 export default function Home() {
   return (
     <>
@@ -21,12 +22,13 @@ export default function Home() {
             <li id="list"><a href='Contact_us' >Contact us</a></li>
           </nav>
         
-        <body>
+        <body class= "homebody">
           <div class="img">
             <Image
-              src="/_DSC2042.JPG"
-              width={1600}
-              height={300}
+              //src="/_DSC2042.JPG"
+              src="/photoex.JPG"
+              width={1000}
+              height={500}
             />
           </div>
 
@@ -38,14 +40,18 @@ export default function Home() {
           <div class="firstlogo">
             <Image
               src="/first.png"
-              width={500}
+              width={400}
               height={400}
             />
           </div>
           <div class="sponsors">
             {/* insert stuff */}
+            <h1>Our sponsors</h1>
+
             <h2>We have none</h2>
           </div>
+
+
           <div class="calander">
 
           </div>
@@ -54,3 +60,4 @@ export default function Home() {
     </>
   )
 }
+

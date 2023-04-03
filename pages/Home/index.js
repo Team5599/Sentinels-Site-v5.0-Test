@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 //import Router from 'next/Router'
+import style from '../styles/style.css'
+
 export default function Home() {
   return (
     <>
@@ -21,11 +23,11 @@ export default function Home() {
             <li id="list"><a href='Contact_us' >Contact us</a></li>
           </nav>
         
-        <body>
+        <body class= "homebody">
           <div class="img">
             <Image
               src="/_DSC2042.JPG"
-              width={1600}
+              width={500}
               height={300}
             />
           </div>
@@ -44,8 +46,12 @@ export default function Home() {
           </div>
           <div class="sponsors">
             {/* insert stuff */}
+            <h1>Our sponsors</h1>
+
             <h2>We have none</h2>
           </div>
+
+
           <div class="calander">
 
           </div>
@@ -54,3 +60,4 @@ export default function Home() {
     </>
   )
 }
+

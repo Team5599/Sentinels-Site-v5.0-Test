@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .Heading{
     text-align: center;
 }
 .navbar{
-
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 1%;
 }
 .navbar li{
     display: inline-block;
@@ -19,10 +26,29 @@
     float: inline-start;
 }
 
-li{
+.navbar li{
     list-style: none;
+}
+
+.navbar li a { 
+    text-decoration: none;
+    color: black;
 }
 
 .img{
     text-align: center;
+}
+
+.homebody{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.navbar li:hover{
+
+}
+
+.sponsors{
+    
 }
