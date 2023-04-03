@@ -1,24 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-const inter = Inter({ subsets: ['latin'] })
-//import Router from 'next/Router'
-export default function Home() {
-  return (
-    <>
-    <main>
-
-      <Head>
+<Head>
         <title>Sentinels</title>
       </Head>
           <nav class="navbar">
             <li id="home"><a href=''>The Sentinels</a></li>
-            <li id="list"><a href='Team.js'>Team</a></li>
-            <li id="list"><a href='Robots.js' >Robots</a></li>
-            <li id="list"><a href='Blogs.js' >Blogs</a></li>
-            <li id="list"><a href='Sponsors.js' >Sponsors</a></li>
-            <li id="list"><a href='Resources.js' >Resources</a></li>
-            <li id="list"><a href='Contact_us.js' >Contact us</a></li>
+            <li id="list"><a href='Team'>Team</a></li>
+            <li id="list"><a href='Robots' >Robots</a></li>
+            <li id="list"><a href='Blogs' >Blogs</a></li>
+            <li id="list"><a href='Sponsors' >Sponsors</a></li>
+            <li id="list"><a href='Resources' >Resources</a></li>
+            <li id="list"><a href='Contact_us' >Contact us</a></li>
           </nav>
         
         <body>
@@ -41,6 +31,10 @@ export default function Home() {
               width={500}
               height={400}
             />
+          </div>
+          <div class="sponsors">
+            {/* insert stuff */}
+            <h2>We have none</h2>
           </div>
         </body>
       </main>
