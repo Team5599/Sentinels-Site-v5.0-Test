@@ -14,12 +14,12 @@ export default function Home() {
       </Head>
           <nav class="navbar">
             <li id="home"><a href=''>The Sentinels</a></li>
-            <li id="list"><a href='Team'>Team</a></li>
-            <li id="list"><a href='Robots' >Robots</a></li>
-            <li id="list"><a href='Blogs' >Blogs</a></li>
-            <li id="list"><a href='Sponsors' >Sponsors</a></li>
-            <li id="list"><a href='Resources' >Resources</a></li>
-            <li id="list"><a href='Contact_us' >Contact us</a></li>
+            <li id="listright" class="list"><a href='Team'><p>Team</p></a></li>
+            <li id="listright" class="list"><a href='Robots' ><p>Robots</p></a></li>
+            <li id="listright" class="list"><a href='Blogs' ><p>Blogs</p></a></li>
+            <li id="listright" class="list"><a href='Sponsors' ><p>Sponsors</p></a></li>
+            <li id="listright" class="list"><a href='Resources' ><p>Resources</p></a></li>
+            <li id="listright" class="list"><a href='Contact_us' ><p>Contact Us</p></a></li>
           </nav>
         
         <body class= "homebody">
@@ -55,7 +55,18 @@ export default function Home() {
           <div class="calander">
 
           </div>
+
+
         </body>
+
+        <footer>
+          <div>
+            © The Sentinels 2023
+          </div>
+          <div class="media">
+
+          </div>
+        </footer>
       </main>
     </>
   )

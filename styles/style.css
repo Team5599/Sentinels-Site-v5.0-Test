@@ -15,19 +15,24 @@
     display: inline-block;
     padding: 10px;
 }
-#home{
-    float: left;
-}
+
 #subPages{
     float: right;
 }
 
-#list{
+.list{
     float: inline-start;
+    margin-left: 1%;
+    margin-right: 2%;
+    text-align: center;
+}
+#listright{
+    float: right;
 }
 
 .navbar li{
     list-style: none;
+    margin: 0%;
 }
 
 .navbar li a { 
@@ -44,10 +49,18 @@
     margin-right: 5%;
 }
 
-
-.navbar li:hover{
-
+.navbar li a p:hover{
+    transform: scale(1.1);
+    background-color: #72767980;
+    border-radius: 20px;
+    
 }
+
+.navbar li a p{
+    transition: 1.5s; 
+}
+
+
 
 .sponsors{
     
