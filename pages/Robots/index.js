@@ -22,51 +22,37 @@ export default function Home() {
           </nav>
         
         <body class= "homebody">
-          <div class="img">
-            <Image
-              // src="/_DSC2042.JPG"
-              src="/photoex.JPG"
-              width={1000}
-              height={500}
-            />
-          </div>
 
-          <h1 class="Heading">News heading</h1>
-          <div>
-            {/* content */}
-          </div>
-          <div class="firstlogo">
-            <Image
-              src="/first.png"
-              width={400}
-              height={400}
-            />
-          </div>
-          <div class="sponsors">
-            {/* insert stuff */}
-            <h1>Our sponsors</h1>
+            <h1 class="Heading">Robots</h1>
+            
+            {/* add more than one picture for each robot, instead of having 1 for now */}
+            <div class="img">
+                <figure>
+                    <Image
+                    src
+                    width={1000}
+                    height={500}
+                    />
+                    <figcaption>
+                        2023
+                    </figcaption>
+                </figure>
+            </div>
 
-            <h2>We have none</h2>
-          </div>
-
-
-          <div class="calander">
-
-          </div>
-
-
+            <div class="img">
+                <figure>
+                    <Image
+                    src
+                    width={1000}
+                    height={500}
+                    />
+                    <figcaption>
+                        2022
+                    </figcaption>
+                </figure>
+            </div>
         </body>
-
-        <footer>
-          <div>
-            © The Sentinels 2023
-          </div>
-          <div class="media">
-
-          </div>
-        </footer>
       </main>
     </>
   )
 }
-

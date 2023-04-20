@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Team</title>
+        <title>Resources</title>
       </Head>
       <nav class="navbar">
             <li id="home"><a href='/'>The Sentinels</a></li>
@@ -15,11 +15,18 @@ export default function Home() {
             <li id="listright"><a href='/Contact_us' >Contact us</a></li>
           </nav>
       <main>
-        
-      
+        <body class = "homebody">
+            <h1 class="Heading">Resources</h1>
+            <div>
+                Link to the tools and parts used for each robot below
+                <li><a href = ''>Tools</a></li>
+            </div>
 
+            <h2>Videos</h2>
+            <div>
+                <p>to be implemented</p>
+            </div>
+        </body>
       </main>
-
-
     </>
   )}
