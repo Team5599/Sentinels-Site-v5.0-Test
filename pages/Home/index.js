@@ -52,7 +52,7 @@ export default function Home() {
           </div>
 
 
-          <div class="calander">
+          <div class="calandera">
 
           </div>
         </body>
