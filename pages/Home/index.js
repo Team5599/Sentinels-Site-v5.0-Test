@@ -10,9 +10,10 @@ export default function Home() {
     <>
     <main>
 
-      <Head>
+      <head>
         <title>Sentinels</title>
-      </Head>
+        <link rel="icon" type="image/x-icon" href="/images/new_favicon.ico"/>
+      </head>
           <nav class="navbar">
             <li id="home"><a href=''>The Sentinels</a></li>
             <li id="list"><a href='Team'>Team</a></li>
@@ -33,7 +34,7 @@ export default function Home() {
           </div>
 
 
-          <h1 class="Heading">News heading</h1>
+          <h1 class="Heading">News heading </h1>
           <div>
             {/* content */}
           </div>
@@ -46,13 +47,13 @@ export default function Home() {
           </div>
           <div class="sponsors">
             {/* insert stuff */}
-            <h1>Our sponsors</h1>
+            <h1>Our sponsors </h1>
 
             <h2>We have none</h2>
           </div>
 
 
-          <div class="calandera">
+          <div class="calender">
 
           </div>
         </body>
