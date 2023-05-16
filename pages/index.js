@@ -10,6 +10,7 @@ export default function Home() {
     <main>
       <Head>
         <title>Sentinels</title>
+        <link rel="icon" type="image/x-icon" href="/new_favicon.ico"/>
       </Head>
           <nav class="navbar">
             <li id="home"><a href='/'>The Sentinels</a></li>
@@ -31,6 +32,46 @@ export default function Home() {
             />
           </div>
 
+          {/* SLIDESHOW */}
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <Image
+              src="/_DSC2042.JPG"
+              // src="/photoex.JPG"
+              width={1000}
+              height={500}
+            />
+              <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <Image
+              src="/_DSC2042.JPG"
+              // src="/photoex.JPG"
+              width={1000}
+              height={500}
+            />
+              <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <Image
+              src="/_DSC2042.JPG"
+              // src="/photoex.JPG"
+              width={1000}
+              height={500}
+            />
+              <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
           <h1 class="Heading">News heading</h1>
           <div>
             {/* content */}
@@ -50,11 +91,9 @@ export default function Home() {
           </div>
 
 
-          <div class="calander">
+          <div class="calender">
 
           </div>
-
-
         </body>
 
         <footer>
