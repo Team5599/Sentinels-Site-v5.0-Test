@@ -1,17 +1,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 //import Router from 'next/Router'
 
 export default function Home() {
+  
   return (
     <>
     <main>
       <Head>
         <title>Sentinels</title>
         <link rel="icon" type="image/x-icon" href="/new_favicon.ico"/>
+        <script src="/testScript.js"></script>
       </Head>
+
+
           <nav class="navbar">
             <li id="home"><a href='/'>The Sentinels</a></li>
             <li id="listright" class="list"><a href='/Team'><p>Team</p></a></li>
@@ -23,6 +28,9 @@ export default function Home() {
           </nav>
         
         <body class= "homebody">
+
+
+
           <div class="img">
             <Image
               // src="/_DSC2042.JPG"
@@ -72,6 +80,10 @@ export default function Home() {
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
 
+          <script src='/testScript.js' strategy='afterInteractive'>
+            {/*add code in here?*/}
+          </script>
+
           <h1 class="Heading">News heading</h1>
           <div>
             {/* content */}
@@ -92,8 +104,10 @@ export default function Home() {
 
 
           <div class="calender">
-
+  
           </div>
+          
+
         </body>
 
         <footer>
