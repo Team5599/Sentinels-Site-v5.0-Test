@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Sentinels | Team</title>
+      <title>Team</title>
       <link rel="icon" type="image/x-icon" href="/new_favicon.ico"/>
     </Head>
     <nav class="navbar">
@@ -15,22 +15,10 @@ export default function Home() {
       <li id="listright" class="list"><Link href='/Blogs'><p>Blogs</p></Link></li>
       <li id="listright" class="list"><Link href='/Sponsors'><p>Sponsors</p></Link></li>
       <li id="listright" class="list"><Link href='/Resources'><p>Resources</p></Link></li>
-      <li id="listright" class="list"><Link href='/Contact-us'><p>Contact Us</p></Link></li>
+      <li id="listright" class="list"><Link href='/Contact us'><p>Contact Us</p></Link></li>
     </nav>
-    <h1 class="Heading">Our Team</h1>
     <main>
 
-
-      <footer>
-        <div>
-          lorem ipsum 
-          asdfa
-          asdf
-        </div>
-        <div class = "Heading">
-          © The Sentinels 2023
-        </div>
-      </footer>
     </main>
     </>
   )}

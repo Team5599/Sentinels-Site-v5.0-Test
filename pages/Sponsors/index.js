@@ -1,30 +1,37 @@
 import Head from 'next/head'
+import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Resources</title>
-      </Head>
-      <nav class="navbar">
-            <li id="home"><a href='/'>The Sentinels</a></li>
-            <li id="listright"><a href='/Team'>Team</a></li>
-            <li id="listright"><a href='/Robots' >Robots</a></li>
-            <li id="listright"><a href='/Blogs' >Blogs</a></li>
-            <li id="listright"><a href='/Sponsors' >Sponsors</a></li>
-            <li id="listright"><a href='/Resources' >Resources</a></li>
-            <li id="listright"><a href='/Contact_us' >Contact us</a></li>
-          </nav>
-        <main>
-            <body class = "homebody">
-                <h1 class="Heading">Sponsors</h1>
+    <Head>
+      <title>Sentinels | Sponsors</title>
+      <link rel="icon" type="image/x-icon" href="/new_favicon.ico"/>
+    </Head>
+    <nav class="navbar">
+      <li id="home"><Link href='/'>The Sentinels</Link></li>
+      <li id="listright" class="list"><Link href='/Donate' ><p>Donate</p></Link></li>
+      <li id="listright" class="list"><Link href='/Team'><p>Team</p></Link></li>
+      <li id="listright" class="list"><Link href='/Robots'><p>Robots</p></Link></li>
+      <li id="listright" class="list"><Link href='/Blogs'><p>Blogs</p></Link></li>
+      <li id="listright" class="list"><Link href='/Sponsors'><p>Sponsors</p></Link></li>
+      <li id="listright" class="list"><Link href='/Resources'><p>Resources</p></Link></li>
+      <li id="listright" class="list"><Link href='/Contact-us'><p>Contact Us</p></Link></li>
+    </nav>
+    <main>
 
-                <div>
-                    <li>a pebble on the side of the road</li>
-                    <li>neighborhood homeless cat</li>
-                    <li>a piece of grass</li>
-                </div>
-            </body>
 
-        </main>
+
+
+
+      <h1 class="Heading">Sponsors</h1>
+
+      <div>
+          <li>Helms Bros</li>
+          <li>Magnum Plumbing</li>
+          <li>Jere's Hardware</li>
+      </div>
+
+
+    </main>
     </>
   )}
